@@ -1,15 +1,14 @@
 .bannerContainer{
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border: 5px solid red;
-    
-
 }
 
 .imgBanner{
-    
-    width: 50%;
+    width: 40%;
     
 }
 
@@ -20,4 +19,6 @@
 .textoBanner{
     font-family: var(--texto);
     text-align: right;
+    font-size: 2.5rem;
+    width: 60%;
 }
