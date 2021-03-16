@@ -1,0 +1,23 @@
+.bannerContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid red;
+    
+
+}
+
+.imgBanner{
+    
+    width: 50%;
+    
+}
+
+.imgBanner img{
+    width: 80%;
+}
+
+.textoBanner{
+    font-family: var(--texto);
+    text-align: right;
+}
