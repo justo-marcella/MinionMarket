@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --titulo: "Righteous", cursive;
+  --texto: "Poppins", sans-serif;
+  --azulEscuro: #6dbcf5;
+  --azulClaro: #70d1fc;
+  --amareloClaro: #f1f8a4;
+  --amareloEscuro: #f1d96f;
+  --preto: #4d4945;
+}
+
+.App {
+  display: grid;
+  grid-auto-rows: 1fr 8fr 1fr;
+}
