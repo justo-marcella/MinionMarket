@@ -1,16 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 
 :root {
   --titulo: "Righteous", cursive;
   --texto: "Poppins", sans-serif;
-  --azulEscuro: #6dbcf5;
+  --azulEscuro: #186297;
   --azulClaro: #70d1fc;
   --amareloClaro: #f1f8a4;
-  --amareloEscuro: #f1d96f;
+  --amareloEscuro: #F5E050;
   --preto: #4d4945;
 }
 
