@@ -1,0 +1,28 @@
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    padding: 0 15px;
+    background-color: var(--azulClaro);
+    color: var(--preto);
+    font-size: 1.5rem;
+}
+
+.menuFooter{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--texto);
+}
+
+.menuFooter li{
+    list-style: none;
+    margin: 15px;
+}
+
+.icons {
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
