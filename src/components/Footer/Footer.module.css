@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100vw;
     height: 80px;
-    display: flex;
+    
     padding: 0 15px;
     background-color: var(--azulClaro);
     color: var(--preto);
@@ -11,9 +11,12 @@
 }
 
 .menuFooter{
+    width: 90vw;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     font-family: var(--texto);
+    border: 5px solid red;
 }
 
 .menuFooter li{
@@ -23,6 +26,11 @@
 
 .icons {
     display: flex;
-    width: 25px;
-    height: 25px;
+    /* width: 25px;
+    height: 25px; */
+}
+
+.icons img{
+    width: 100%;
+
 }
