@@ -15,6 +15,7 @@
 }
 
 .App {
-  display: grid;
-  grid-auto-rows: 1fr 8fr 1fr;
+  display: flex;
+  flex-direction: column;
+  
 }
