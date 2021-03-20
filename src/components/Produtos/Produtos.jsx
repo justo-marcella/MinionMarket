@@ -1,5 +1,7 @@
-import React from 'react'
-import styles from './Produtos.module.css'
+import React from 'react';
+import CardProduto from './CardProduto/CardProduto';
+import styles from './Produtos.module.css';
+
 
 function Produtos() {
     const produtos = [
@@ -31,7 +33,11 @@ function Produtos() {
     return (
         <section className={styles.produtoContainer}>
             <h2>Nossos Minions</h2>
-            
+            <div className={styles.cardContainer}>
+        {produtos.map((item, index) => (
+          <CardProduto nome={item.nome} src={item.src} id={index} />
+        ))}
+      </div>
         </section>
     )
 }
