@@ -4,12 +4,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid red;
 }
 
 .imgBanner{
     width: 40%;
-    
 }
 
 .imgBanner img{
@@ -22,3 +20,37 @@
     font-size: 2.5rem;
     width: 60%;
 }
+
+
+@media screen and (max-width: 427px) {
+    .bannerContainer {
+      flex-direction: column;
+      padding: 0px;
+    }
+  
+    .imgBanner img {
+      margin: 15px auto;
+      width: 100%;
+    }
+  
+    .textoBanner {
+      text-align: center;
+      width: 100%;
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 769px) and (min-width: 428px) {
+    .bannerContainer {
+      flex-direction: column;
+      padding: 0px;
+    }
+  
+    .bannerImg img {
+      margin: 15px auto;
+    }
+    .bannerText {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
