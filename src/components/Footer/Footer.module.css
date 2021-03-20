@@ -1,10 +1,8 @@
 .footerContainer {
-    position: fixed;
-    bottom: 0;
+    margin-top: 30px;
     width: 100vw;
     height: 80px;
-    
-    padding: 0 15px;
+    /* padding: 1%; */
     background-color: var(--azulClaro);
     color: var(--preto);
     font-size: 1.5rem;
@@ -14,14 +12,15 @@
     width: 90vw;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-family: var(--texto);
-    border: 5px solid red;
+
 }
 
 .menuFooter li{
     list-style: none;
-    margin: 15px;
+    margin: 7px;
 }
 
 .icons {
@@ -33,4 +32,21 @@
 .icons img{
     width: 100%;
 
+}
+
+@media screen and (max-width: 426px){
+    
+    .footerContainer{
+        height: auto;
+
+    }
+
+    .menuFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
 }
