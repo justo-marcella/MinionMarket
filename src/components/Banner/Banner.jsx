@@ -8,7 +8,7 @@ function Banner() {
                 <img src='img/MinionJerry.png' alt='Jerry'/>
             </section>
             <article className={styles.textoBanner}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati totam eveniet laudantium illum earum atque ipsa possimus iste. Tenetur voluptate eos nisi nemo quisquam repellendus velit fuga nulla corporis magni.</p>
+                <p>Olá! Somos a MinionShop! Aqui você encontra o seu minion favorito, lê a descrição e ainda pode reservar para sua futura compra!</p>
 
             </article>
             

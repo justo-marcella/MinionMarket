@@ -1,0 +1,140 @@
+.cadastroContainer {
+  width: 90vw;
+  min-height: 70vh;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bannerCadastro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: var(--texto);
+  height: 40%;
+  justify-content: space-around;
+}
+
+.bannerCadastro img {
+  width: 25%;
+}
+.bannerCadastro article {
+  width: 50%;
+}
+.bannerCadastro article h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.bannerCadastro article p {
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.formCadastro {
+  margin: 15 auto;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputsForm {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 130px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+.campoFormCadastro {
+  width: 90%;
+  height: 60px;
+  margin: 15 auto;
+  padding-left: 7%;
+}
+
+.campoFormCadastro label {
+  text-align: start;
+  display: block;
+  font-family: var(--texto);
+  margin: 15 auto;
+}
+
+.campoFormCadastro input {
+  height: 30px;
+  width: 80%;
+  margin: 15 auto;
+  border-radius: 5px;
+  border: 2px solid var(--azulClaro);
+}
+
+.formCadastro button {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  background: var(--azulClaro);
+  border: 2px solid var(--azulClaro);
+  color: white;
+  font-family: var(--texto);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 25px 0;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 426px) {
+  .bannerCadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+  }
+
+  .bannerCadastro img {
+    order: 1;
+    width: 50%;
+  }
+  .bannerCadastro article {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  .bannerCadastro article p {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .formCadastro {
+    margin: 15 auto;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputsForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+  .campoFormCadastro {
+    width: 90%;
+    height: 60px;
+    margin: 15 auto;
+    padding-left: 7%;
+    margin: 0 auto;
+  }
+
+  .formCadastro button {
+    font-size: 1rem;
+  }
+}

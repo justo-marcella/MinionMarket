@@ -11,6 +11,7 @@
   justify-content: space-around;
   font-family: var(--texto);
   padding: 5px 0;
+  font-weight: bold;
 }
 
 .card3 img {

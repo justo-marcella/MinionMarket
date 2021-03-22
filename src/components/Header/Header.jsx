@@ -10,9 +10,7 @@ function Header() {
             </section>
             <nav className={styles.menuNav}>
                 
-                    <li>cadastro</li>
-                    <li>login</li>
-                
+                    {/* <li>reserva</li>        */}
                 
             </nav>
         </header>
